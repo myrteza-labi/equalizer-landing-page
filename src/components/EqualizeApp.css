@@ -1,0 +1,8 @@
+.EqualizeApp {
+    overflow: hidden; 
+    position: relative; 
+    width: 375px; 
+    display: flex; 
+    flex-direction: column; 
+    background-color: #fff; 
+}

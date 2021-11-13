@@ -1,0 +1,7 @@
+.IconContainer {
+    width: 100px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    margin: 60px 24px 80px 24px; 
+}

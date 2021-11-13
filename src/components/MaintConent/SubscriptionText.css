@@ -1,0 +1,38 @@
+.SubscriptionText{
+    color: #fff; 
+    text-align: left; 
+}
+
+.subrscriptionTitle {
+    font-size: 32px; 
+    font-weight: 700; 
+    line-height: 48px; 
+}
+
+.subscriptionPresentation {
+    margin: 12px 0 0 0;
+    font-size: 18px; 
+    font-weight: 200; 
+    line-height: 28px; 
+}
+
+.priceBox{
+    margin: 36px 0 0 0; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+}
+
+.subscriptionPrice {
+    font-size: 65px; 
+    font-weight: 600; 
+}
+
+.priceBy {
+    display: inline-block; 
+    font-size: 20px; 
+    line-height: 32px; 
+    font-weight: 200; 
+    margin: 0 0 0 16px; 
+}
+

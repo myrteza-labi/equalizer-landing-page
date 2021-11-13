@@ -1,0 +1,16 @@
+.DownloadBtn {
+    width: 100%; 
+    height: 60px; 
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px; 
+    line-height: 32px; 
+    font-weight: 500; 
+    border: none; 
+    border-radius: 12px; 
+    margin-top: 16px; 
+}
+
+.DownloadBtn.black {
+    background-color: #000; 
+    color: #fff; 
+}

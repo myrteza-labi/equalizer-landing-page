@@ -1,9 +1,10 @@
 .OutsideImage{
     position: relative; 
     z-index: 1; 
-    width: auto; 
+    margin: 70px 0 ; 
     height: 430px; 
-    margin: 70px 0 0 0; 
+    width: auto; 
+    object-fit: contain;
 }
 
 /* tablet style */

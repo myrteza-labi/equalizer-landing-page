@@ -4,8 +4,8 @@ import logo from '../assets/logo.svg';
 
 function Logo(props) {
     return (
-        <div className="logoContainer">
-            <img id={props.id} src={logo} alt="logo Equalize" className="Logo" />
+        <div id={props.id} className="logoContainer">
+            <img  src={logo} alt="logo Equalize" className="Logo" />
         </div>
     )
 }

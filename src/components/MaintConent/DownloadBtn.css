@@ -14,3 +14,22 @@
     background-color: #000; 
     color: #fff; 
 }
+.DownloadBtn.white {
+    background-color: #fff; 
+    color: #000; 
+}
+
+/* desktop style */
+@media screen and (min-width: 1440px){
+    .DownloadBtn:hover {
+        cursor: pointer; 
+    }
+    .DownloadBtn.black:hover {
+        background-color: #66E2DC; 
+        color: #fff; 
+    }
+    .DownloadBtn.white:hover {
+        background-color: #FFB964; 
+        color: #000; 
+    }
+}

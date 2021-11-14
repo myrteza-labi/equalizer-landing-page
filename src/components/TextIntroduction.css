@@ -4,7 +4,6 @@
     text-align: left; 
     margin: 60px 24px 0 24px; 
     color: #191826;
-
 }
 
 .titleIntroduction {
@@ -18,7 +17,6 @@
     font-size: 16px; 
     line-height: 26px; 
     font-weight: 400; 
-
 }
 
 
@@ -42,3 +40,21 @@
     }
 }
 
+/* Desktop style */
+    @media screen and (min-width: 1440px){
+        .TextIntroduction{
+            width: 1100px; 
+        }
+        .titleIntroduction {
+            font-size: 88px; 
+            line-height: 88px; 
+            letter-spacing: -1px; 
+            font-weight: 700; 
+        }
+        .paragrapheIntroduction{
+            width: 825px; 
+            font-size: 20px; 
+            line-height: 34px; 
+        }
+        
+    }

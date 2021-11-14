@@ -1,4 +1,5 @@
 .BgDecoration{
+    position: relative; 
     width: 100%; 
     height: 600px; 
     background-color: #000; 
@@ -18,3 +19,12 @@
         margin-top: -420px; 
     }
 }
+
+/* desktop style */
+@media screen and (min-width: 1440px){
+    .BgDecoration{
+        background-image: url('../../assets/bg-main-desktop.png'); 
+        background-size: 312px 470px; 
+    }
+}
+

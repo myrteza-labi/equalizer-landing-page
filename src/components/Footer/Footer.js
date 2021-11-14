@@ -8,7 +8,7 @@ function Footer() {
     return (
         <footer className="Footer">
             <div className="logoAndCopyright">
-                <Logo/>
+                <Logo id={"logoFooter"}/>
                 <Copyright/>
             </div>
             

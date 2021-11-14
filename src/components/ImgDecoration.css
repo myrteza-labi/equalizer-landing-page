@@ -9,9 +9,7 @@
     .ImgDecoration {
     display: block; 
     height: 400px; 
-    min-height: 400px; 
     width: 300px; 
-    min-width: 300px; 
     background-image: url('../assets/bg-pattern-1.svg'); 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -19,5 +17,13 @@
     position: absolute; 
     top: -30px; 
     right: -40px; 
+    }
+}
+
+/* tablet style */
+@media screen and (min-width:1440px){
+    .ImgDecoration {
+        height: 500px; 
+        width: 400px; 
     }
 }

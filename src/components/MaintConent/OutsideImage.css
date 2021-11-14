@@ -14,3 +14,12 @@
         left: -180px; 
     }
 }
+
+/* Desktop style */
+@media screen and (min-width: 1440px){
+    .OutsideImage{
+        height: 640px; 
+        width: auto; 
+        left: -300px; 
+    }
+}

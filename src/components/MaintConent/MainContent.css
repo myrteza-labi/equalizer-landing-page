@@ -1,3 +1,18 @@
 .MainContent {
     position: relative;
 }
+
+/* tablet style */
+@media screen and (min-width: 768px){
+    .MainContent{
+        width: 700px; 
+        align-self: center; 
+    }
+}
+
+/* Desktop style */
+@media screen and (min-width: 1440px){
+    .MainContent{
+        width: 1100px; 
+    }
+}

@@ -1,6 +1,10 @@
 .TextIntroduction{
+    position: relative; 
+    z-index: 2; 
     text-align: left; 
     margin: 60px 24px 0 24px; 
+    color: #191826;
+
 }
 
 .titleIntroduction {
@@ -14,4 +18,27 @@
     font-size: 16px; 
     line-height: 26px; 
     font-weight: 400; 
+
 }
+
+
+/* tablet style */
+@media screen and (min-width:768px){
+    .TextIntroduction{
+        text-align: left; 
+        width: 520px; 
+        margin: 95px 0 0 40px; 
+    }
+    .titleIntroduction {
+        font-size: 64px; 
+        line-height: 64px; 
+        font-weight: 600; 
+    }
+    .paragrapheIntroduction{
+        margin: 25px 0 0 0; 
+        font-size: 18px; 
+        line-height: 28px; 
+        font-weight: 400; 
+    }
+}
+

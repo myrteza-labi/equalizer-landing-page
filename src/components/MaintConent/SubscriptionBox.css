@@ -1,5 +1,19 @@
 .SubscriptionBox {
+    position: absolute; 
     z-index: 3; 
     padding: 42px; 
     background-color: #FA7453; 
+    border-radius: 10px; 
+    bottom: -350px; 
+}
+
+/* tablet style */
+@media screen and (min-width: 768px){
+    .SubscriptionBox {
+        padding: 48px; 
+        width: 400px;   
+        margin: 0; 
+        bottom: -100px; 
+        right: 60px; 
+    }
 }

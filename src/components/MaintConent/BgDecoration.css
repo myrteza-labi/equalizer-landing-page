@@ -5,6 +5,16 @@
     background-image: url('./../../assets/bg-pattern-2.svg');
     background-repeat: no-repeat;  
     background-position: center top; 
-    background-size: 70%; 
+    background-size: 75%; 
     margin-top: -340px; 
+    border-radius: 10px; 
+}
+
+/* tablet style */
+@media screen and (min-width: 768px){
+    .BgDecoration{
+        background-size: 280px 420px; 
+        background-position: center -30px;
+        margin-top: -420px; 
+    }
 }

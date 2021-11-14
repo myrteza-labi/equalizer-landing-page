@@ -1,13 +1,23 @@
 .ImgDecoration {
-    height: 500px; 
-    min-height: 500px; 
+    display: none;
+    z-index: 2; 
+}
+
+
+/* tablet style */
+@media screen and (min-width:768px){
+    .ImgDecoration {
+    display: block; 
+    height: 400px; 
+    min-height: 400px; 
     width: 300px; 
     min-width: 300px; 
-    background-image: url('../assets/bg-main-mobile.png'); 
+    background-image: url('../assets/bg-pattern-1.svg'); 
     background-repeat: no-repeat; 
     background-position: center; 
-    background-size: 165%; 
+    background-size: contain; 
     position: absolute; 
-    top: -100px; 
+    top: -30px; 
     right: -40px; 
+    }
 }

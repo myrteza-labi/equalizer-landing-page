@@ -5,13 +5,15 @@ import ImgDecoration from './ImgDecoration';
 import TextIntroduction from './TextIntroduction'; 
 import MainContent from './MaintConent/MainContent'; 
 import Footer from './Footer/Footer'; 
+import ShadowDecoration from './ShadowDecoration'; 
 
 function EqualizeApp() {
     return (
         <div className="EqualizeApp">
-            <Logo/>
-            <TextIntroduction/>
             <ImgDecoration/>
+            <ShadowDecoration/>
+            <Logo id={"logoMain"}/>
+            <TextIntroduction/>
             <MainContent/>
             <Footer/>
         </div>

@@ -1,0 +1,28 @@
+.ShadowDecoration {
+    position: absolute; 
+    z-index: 0; 
+    height: 500px; 
+    min-height: 500px; 
+    width: 300px; 
+    min-width: 300px; 
+    background-image: url('../assets/bg-main-mobile.png'); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    top: -100px; 
+    right: -40px; 
+}
+
+
+/* tablet style */
+@media screen and (min-width:768px){
+    .ShadowDecoration {
+        height: 1000px; 
+        width: auto; 
+        top: -200px; 
+        left: -300px; 
+        background-image: url('../assets/bg-main-tablet.png'); 
+
+    }
+}
+
